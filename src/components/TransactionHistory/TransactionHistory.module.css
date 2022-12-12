@@ -1,4 +1,4 @@
-.transaction-history {
+.transactionHistory {
   display: block;
   margin: 0 auto;
   width: 300px;
@@ -20,9 +20,10 @@
   width: 100px;
   text-align: center;
 }
-.line_grey {
-  background-color: rgb(220, 216, 216);
-}
-.line_white {
+.lines:nth-child(2n) {
   background-color: white;
+}
+
+.lines:nth-child(2n + 1) {
+  background-color: rgb(220, 216, 216);
 }
